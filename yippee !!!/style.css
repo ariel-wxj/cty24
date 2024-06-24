@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(107, 7, 7, 0.813);
+}
+.big-yay{
+    text-align: right;
+    background-color: rgba(255, 255, 255, 0.254);
+    color: darkred;
+}
+.paragraph{
+    text-align: center;
+    background-color: rgba(123, 7, 7, 0.414);
+    color: rgb(195, 145, 145);
+}
+)
