@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    
+    <!--this is the fieldset section-->
+    
+    <fieldset>
+        <legend>
+            Your details:
+        </legend>
+
+        <label>
+            Name:
+            <input type="text" name="name" size="30" maxlength="100"/>
+        </label>
+        <br />
+
+    <!--this is the email section-->
+
+    <label>
+        Email:
+        <input type="text" name="email" size="30" maxlength="100"/>
+    </label>
+    <br />
+
+    </fieldset>
+
+    <!--your review section-->
+    <br />
+
+    <fieldset>
+
+        <legend>
+            Your review
+        </legend>
+        <p>
+            <label for="hear-about">
+            How did you hear about us?
+            </label>
+            <select name="referrer" id="hear-about">
+                <option value="google">Google</option>
+                <option value="friend">friend</option>
+                <option value="advert">advert</option>
+                <option value="other">other</option>
+                
+
+            </select>
+        </p>
+
+        <!--this is the visit again section-->
+        <p>
+            Would you visit again?
+            <br />
+            <label>
+                <input type="radio" name="rating" value="yes"/>
+                yes
+            </label>
+
+            <label>
+                <input type="radio" name="rating" value="no"/>
+                no
+            </label>
+
+            <label>
+                <input type="radio" name="rating" value="maybe"/>
+                maybe
+            </label>
+        </p>
+
+        <p>
+            <label for="comments">
+                comments
+            </label>
+            <br />
+            <textarea rows="4" cols="40" id="comments"></textarea>
+        </p>
+
+
+        <label>
+
+        <input type="checkbox" value="subscribe" checked="checked"/>
+            Sign me up for email updates
+        </label>
+        <br />
+        <input type="submit" value="submit review"/>
+
+    </fieldset>
+
+</body>
+</html>
