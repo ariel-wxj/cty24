@@ -1,0 +1,41 @@
+body{
+
+
+}
+
+.Cookies1{
+column-count: 4;
+
+}
+
+.box{
+    background-image: linear-gradient(to right top, #dbb0f8, #d4a8f5, #cda0f1, #c698ee, #be90eb, #ba88eb, #b581eb, #b179eb, #af6fed, #ad64ef, #ac58f1, #aa4bf2);
+
+}
+
+.ingredients{
+background-color: #dbb0f8;
+
+}
+
+.preparation{
+    background-color: #dbb0f8;
+}
+
+.MacAndCheese1{
+    column-count: 3;
+}
+
+.box2{
+    background-image: linear-gradient(to right top, #e8f8b0, #e7f7a4, #e6f698, #e6f58b, #e6f47e, #e6f376, #e5f36d, #e5f264, #e5f25e, #e4f258, #e4f252, #e3f24b);8eb, #b581eb, #b179eb, #af6fed, #ad64ef, #ac58f1, #aa4bf2);
+
+}
+
+.ingredients2{
+background-color: #e8f8b0;
+
+}
+
+.preparation2{
+   background-color: #e8f8b0;
+}
